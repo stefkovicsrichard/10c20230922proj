@@ -1,22 +1,55 @@
 html {
-    --fekete: #0c0c0c;
-    --szurke: #232323;
-    --narancs: #6d2700;
-    --sarga: #ff7f00;
-    --feher: rgba(255, 255, 255, 80%);
+    --text: #ffffff;
+    --background: #232323;
+    --primary: #0c0c0c;
+    --secondary: #6d2700;
+    --accent: #ff7f00;
+
 }
 
 body {
-    background-color: var(--fekete);
+    background-color: var(--background);
 }
 
 main {
-    width: 90%;
-    background-color: var(--szurke);
+    /* width: 90%; */
+    /* background-color: var(--primary); */
 }
 
 header h1 {
-    color: var(--feher);
+    color: var(--text);
     text-align: center;
     padding: 20px;
+    font-size: 3.75vw;
+}
+
+#bevezetes {
+    margin: 15px;
+    margin-left: 10vw;
+    padding: 14px 14px 7px 14px;
+    width: calc(100% / 3);
+    text-align: justify;
+    color: var(--text);
+    background-color: var(--primary);
+    border-radius: 20px;
+    display: inline-block;
+}
+#bevezetes, #pokol p {
+    font-size: 1.2vw;
+}
+
+#bevezetes h2, #pokol h2 {
+    text-align: center;
+}
+
+#pokol {
+    margin: 15px;
+    margin-right: 10vw;
+    padding: 14px 14px 7px 14px;
+    width: calc(100% / 3);
+    text-align: justify;
+    color: var(--text);
+    background-color: var(--primary);
+    border-radius: 20px;
+    float: right;
 }
