@@ -1,0 +1,22 @@
+html {
+    --fekete: #0c0c0c;
+    --szurke: #232323;
+    --narancs: #6d2700;
+    --sarga: #ff7f00;
+    --feher: rgba(255, 255, 255, 80%);
+}
+
+body {
+    background-color: var(--fekete);
+}
+
+main {
+    width: 90%;
+    background-color: var(--szurke);
+}
+
+header h1 {
+    color: var(--feher);
+    text-align: center;
+    padding: 20px;
+}
