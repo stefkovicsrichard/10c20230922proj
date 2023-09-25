@@ -2,7 +2,7 @@ html {
     --text: #ffffff;
     --background: #232323;
     --primary: #0c0c0c;
-    --secondary: #6d2700;
+    --secondary: #1e1515;
     --accent: #ff7f00;
 
 }
@@ -49,8 +49,12 @@ header h1 {
     float: right;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 576px) {
     #pokol {
         float: none;
     }
+}
+
+.row {
+    background-color: #ff7f00;
 }
