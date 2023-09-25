@@ -11,11 +11,6 @@ body {
     background-color: var(--background);
 }
 
-main {
-    /* width: 90%; */
-    /* background-color: var(--primary); */
-}
-
 header h1 {
     color: var(--text);
     text-align: center;
