@@ -37,3 +37,17 @@ header h1 {
 table * {
     color: white;
 }
+
+#lablec {
+    text-align: center;
+    background-color: var(--background);
+}
+
+#lablec a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+#lablec a:hover {
+    font-size: large;
+}
