@@ -33,3 +33,7 @@ header h1 {
 #bevezetes h2, #pokol h2 {
     text-align: center;
 }
+
+table * {
+    color: white;
+}
