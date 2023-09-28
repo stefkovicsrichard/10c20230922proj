@@ -18,16 +18,13 @@ header h1 {
     font-size: 3.75vw;
 }
 
-#bevezetes {
+.row section {
     margin: 15px;
-    margin-left: 10vw;
     padding: 14px 14px 7px 14px;
-    width: calc(100% / 3);
     text-align: justify;
     color: var(--text);
     background-color: var(--primary);
     border-radius: 20px;
-    display: inline-block;
 }
 #bevezetes, #pokol p {
     font-size: 1.2vw;
@@ -35,25 +32,4 @@ header h1 {
 
 #bevezetes h2, #pokol h2 {
     text-align: center;
-}
-
-#pokol {
-    margin: 15px;
-    margin-right: 10vw;
-    padding: 14px 14px 7px 14px;
-    width: calc(100% / 3);
-    text-align: justify;
-    color: var(--text);
-    background-color: var(--primary);
-    border-radius: 20px;
-    /* float: right; */
-}
-
-@media (max-width: 576px) {
-    /* #pokol  */
-}
-
-.row {
-    background-color: #ff7f00;
-    justify-content: space-between;
 }
