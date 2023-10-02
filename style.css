@@ -41,6 +41,10 @@ table * {
     color: white;
 }
 
+li {
+    list-style-type: upper-roman;
+}
+
 #lablec {
     text-align: center;
     background-color: var(--background);
@@ -49,12 +53,18 @@ table * {
 #lablec a {
     color: var(--text);
     text-decoration: none;
+    font-size: medium;
+    background-color: var(--primary);
+    border-radius: 5px;
+    margin: 10px 0px;
+    opacity: 50%;
 }
 
 #lablec a:hover {
     font-size: large;
+    opacity: 100%;
 }
 
-li {
-    list-style-type: upper-roman;
+#lablec {
+    background-color: var(--secondary);
 }
