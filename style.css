@@ -68,3 +68,17 @@ li {
 #lablec {
     background-color: var(--secondary);
 }
+
+#tablazat {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#tablazat td {
+    color: var(--text);
+}
+
+#tablazat table {
+    border: 1px solid var(--secondary);
+}
