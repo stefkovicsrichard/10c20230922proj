@@ -81,6 +81,7 @@ li {
 
 #tablazat table {
     border: 1px solid var(--secondary);
+    overflow-x: auto;
 }
 
 .quote {
@@ -124,5 +125,8 @@ li {
     }
     #lablec a {
         font-size: large;
+    }
+    #copyright {
+        display: none;
     }
 }
