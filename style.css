@@ -105,3 +105,24 @@ li {
     background-color: var(--secondary);
     color: var(--text);
 }
+
+@media (max-width: 992px) {
+    #bevezetes section, #pokol p {
+      font-size: x-large;
+    }
+}
+
+@media (max-width: 580px) {
+    .quote {
+        width: 55%;
+    }
+    header h1 {
+        font-size: xx-large;
+    }
+    #tablazat table {
+        font-size: large;
+    }
+    #lablec a {
+        font-size: large;
+    }
+}
