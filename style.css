@@ -48,6 +48,7 @@ li {
 #lablec {
     text-align: center;
     background-color: var(--background);
+    padding: 12px;
 }
 
 #lablec a {
@@ -61,8 +62,7 @@ li {
 }
 
 #lablec a:hover {
-    font-size: x-large;
-    opacity: 100%;
+    opacity: 70%;
 }
 
 #lablec {
@@ -109,6 +109,14 @@ li {
 @media (max-width: 992px) {
     #bevezetes section, #pokol p {
       font-size: x-large;
+    }
+
+    #lablec div div div {
+        margin: 4px 0px;
+    }
+
+    #lablec a {
+        padding: 2px;
     }
 }
 
