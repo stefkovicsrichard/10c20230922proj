@@ -12,6 +12,9 @@ body {
 }
 
 header h1 {
+    background-image: url(Képernyőkép\ 2023-10-02\ 100151.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--text);
     text-align: center;
     padding: 20px;
@@ -36,4 +39,22 @@ header h1 {
 
 table * {
     color: white;
+}
+
+#lablec {
+    text-align: center;
+    background-color: var(--background);
+}
+
+#lablec a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+#lablec a:hover {
+    font-size: large;
+}
+
+li {
+    list-style-type: upper-roman;
 }
