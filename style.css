@@ -37,10 +37,6 @@ header h1 {
     text-align: center;
 }
 
-table * {
-    color: white;
-}
-
 li {
     list-style-type: upper-roman;
 }
@@ -81,4 +77,17 @@ li {
 
 #tablazat table {
     border: 1px solid var(--secondary);
+}
+
+.quote {
+    width: 40%;
+    color: var(--text);
+    background-color: var(--secondary);
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Consolas";
+    border-radius: 10px;
 }
