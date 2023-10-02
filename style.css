@@ -103,7 +103,16 @@ li {
   }
 
 @media (max-width: 580px) {
-    table {
-        overflow: scroll;
+    .quote {
+        width: 55%;
+    }
+    header h1 {
+        font-size: xx-large;
+    }
+    #tablazat table {
+        font-size: large;
+    }
+    #lablec a {
+        font-size: large;
     }
 }
